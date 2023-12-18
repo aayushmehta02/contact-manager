@@ -27,7 +27,49 @@
 .App-link {
   color: #61dafb;
 }
+.heading{
+  display:  flex !important;
+  height: 20vh;
+  
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+}
+.heading >h2{
+  size: 1500000000vh !important;
+  text-decoration: underline;
+}
 
+.delete{
+  width: 6em;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+
+}
+
+.item{
+  height: 15vh;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+}
+.content{
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+  justify-items: space-between;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
