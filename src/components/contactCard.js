@@ -9,10 +9,12 @@ const CardContact = (props) =>{
                 <div className='content'>
                     <div className='header'>{name}</div>
                     <div>{email}</div>
-                    <button className='ui button red delete'><i className='trash alternate outline icon'></i></button>
+                    <button className='ui button red delete'>
+                        <i className='trash alternate outline icon'></i>
+                    </button>
                 </div>
         </div>
     )
 }
 
-export default CardContact
+export default CardContact;
