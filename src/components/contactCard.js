@@ -9,7 +9,7 @@ const CardContact = (props) =>{
                 <div className='content'>
                     <div className='header'>{name}</div>
                     <div>{email}</div>
-                    <button className='ui button red delete'>
+                    <button className='ui button red delete' onClick={()=>props.clickHandler(id)}>
                         <i className='trash alternate outline icon'></i>
                     </button>
                 </div>
